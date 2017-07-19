@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="192d7ed0-6ec2-44b3-89c5-d603026992e1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/kr/kosc/brd/board/BoardService.java" afterPath="$PROJECT_DIR$/src/main/java/kr/kosc/brd/board/BoardService.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -36,8 +35,8 @@
       <file leaf-file-name="BoardService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/kr/kosc/brd/board/BoardService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="90">
+              <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -393,6 +392,7 @@
         <option value="$PROJECT_DIR$/src/main/java/kr/kosc/brd/board/BoardRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/kr/kosc/brd/board/BoardDto.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/kr/kosc/brd/board/BoardService.java" />
       </list>
     </option>
   </component>
@@ -1086,12 +1086,12 @@
       <updated>1500441298470</updated>
       <workItem from="1500441302078" duration="67000" />
       <workItem from="1500441385285" duration="460000" />
-      <workItem from="1500444248096" duration="5156000" />
+      <workItem from="1500444248096" duration="5730000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5683000" />
+    <option name="totallyTimeSpent" value="6257000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="396" y="23" width="1440" height="873" extended-state="0" />
@@ -1254,8 +1254,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/kr/kosc/brd/board/BoardService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="90">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
           <folding />
         </state>
       </provider>
