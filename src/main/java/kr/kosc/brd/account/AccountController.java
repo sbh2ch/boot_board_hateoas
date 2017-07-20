@@ -1,5 +1,6 @@
 package kr.kosc.brd.account;
 
+import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -20,7 +21,7 @@ public class AccountController {
     private AccountService service;
 
     @Autowired
-    private AccountRepository repository;
+    private ModelMapper modelMapper;
 
     @PostMapping("/accounts")
     public ResponseEntity createAccount(@RequestBody @Valid AccountDto.Create create, BindingResult result) {
@@ -31,7 +32,6 @@ public class AccountController {
         }
 
         Account account = service.createAccount(create);
-
-        return new ResponseEntity<>(account, HttpStatus.CREATED);
+        return new ResponseEntity<>(modelMapper.map(account, AccountDto.Response.class), HttpStatus.CREATED);
     }
 }

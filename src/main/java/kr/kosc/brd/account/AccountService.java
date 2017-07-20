@@ -19,10 +19,9 @@ public class AccountService {
     @Autowired
     private ModelMapper modelMapper;
 
-    public Account createAccount(AccountDto.Create create) {
-        Account account = new Account();
-        account.setUsername(create.getUsername());
-        account.setPassword(create.getPassword());
+    public Account createAccount(AccountDto.Create dto) {
+        Account account = modelMapper.map(dto, Account.class);
+
         Date now = new Date();
         account.setJoined(now);
         account.setUpdated(now);
