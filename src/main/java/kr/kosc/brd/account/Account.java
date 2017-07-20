@@ -1,7 +1,6 @@
 package kr.kosc.brd.account;
 
-import lombok.Getter;
-import lombok.Setter;
+import lombok.Data;
 
 import javax.persistence.*;
 import java.util.Date;
@@ -10,12 +9,12 @@ import java.util.Date;
  * Created by kiost on 2017-07-20.
  */
 @Entity
-@Getter
-@Setter
+@Data
 public class Account {
     @Id
     @GeneratedValue
     private Long id;
+    @Column(unique = true)
     private String username;
     private String password;
     private String email;
