@@ -9,8 +9,8 @@ import static org.junit.Assert.assertThat;
 public class AccountTest {
     public void getterSetter() {
         Account account = new Account();
-        account.setLoginId("bh");
+        account.setUsername("bh");
         account.setPassword("11");
-        assertThat(account.getLoginId(), is("bh"));
+        assertThat(account.getUsername(), is("bh"));
     }
 }

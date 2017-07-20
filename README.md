@@ -4,3 +4,4 @@
 * REST API (HATEOAS)
 * MySQL
 * Gradle
+* Slf4J
